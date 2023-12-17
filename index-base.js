@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
   const btn = document.getElementById("add");
   const title = document.getElementById("title");
   const table = document.getElementById("table");
@@ -44,4 +43,4 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   btn.onclick = addTodo;
-});
+
